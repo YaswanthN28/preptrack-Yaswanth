@@ -1,0 +1,297 @@
+
+Test Case:1
+
+
+==================================================
+              PREPTRACK APPLICATION
+==================================================
+Enter student name: yaswanth
+Enter registration number: 102
+Enter graduation year: 2026
+Enter attendance percentage: 85
+Has the student completed the required project? (yes/no): yes
+Is the student profile verified? (yes/no): yes 
+Enter Day 1 score (0-100) or -1 for absent: 80 
+Day 1 Result : Strong
+Enter Day 2 score (0-100) or -1 for absent: 75 
+Day 2 Result : Strong
+Enter Day 3 score (0-100) or -1 for absent: 72 
+Day 3 Result : Satisfactory
+Enter Day 4 score (0-100) or -1 for absent: 78 
+Day 4 Result : Strong
+Enter Day 5 score (0-100) or -1 for absent: 90 
+Day 5 Result : Strong
+Enter Day 6 score (0-100) or -1 for absent: 70 
+Day 6 Result : Satisfactory
+Enter Day 7 score (0-100) or -1 for absent: 82 
+Day 7 Result : Strong
+
+==================================================
+              PREPTRACK REPORT
+==================================================
+
+STUDENT PROFILE
+
+Student Name             : yaswanth
+Registration Number      : 102
+Graduation Year          : 2026
+Attendance               : 85.0%
+Project Completed        : Yes
+Profile Verified         : Yes
+
+PRACTICE SUMMARY
+
+Total Practice Days      : 7
+Attempted Days           : 7
+Absent Days              : 0
+Passed Days              : 7
+Failed Days              : 0
+
+Strong Days              : 5
+Satisfactory Days        : 2
+Needs Improvement Days   : 0
+Critical Days            : 0
+
+PERFORMANCE ANALYSIS
+
+Total Score              : 547
+Average Score            : 78.14
+Highest Score            : 90
+
+CRITICAL SCORE INFORMATION
+
+Critical Score Found     : No
+First Critical Day       : Not Applicable
+First Critical Score     : Not Applicable
+
+FINAL DECISION
+
+Final Status             : Ready for Mock Interview
+Primary Blocker          : None
+Next Action              : Proceed to placement mock interviews
+==================================================
+
+
+
+Test Case:2
+
+
+==================================================
+              PREPTRACK APPLICATION
+==================================================
+Enter student name: yaswanth
+Enter registration number: 102
+Enter graduation year: 2026
+Enter attendance percentage: 85
+Has the student completed the required project? (yes/no): yes
+Is the student profile verified? (yes/no): yes 
+Enter Day 1 score (0-100) or -1 for absent: 75 
+Day 1 Result : Strong
+Enter Day 2 score (0-100) or -1 for absent: 35
+Day 2 Result : Critical
+Enter Day 3 score (0-100) or -1 for absent: 80
+Day 3 Result : Strong
+Enter Day 4 score (0-100) or -1 for absent: 70 
+Day 4 Result : Satisfactory
+Enter Day 5 score (0-100) or -1 for absent: 72 
+Day 5 Result : Satisfactory
+Enter Day 6 score (0-100) or -1 for absent: 76 
+Day 6 Result : Strong
+Enter Day 7 score (0-100) or -1 for absent: 68 
+Day 7 Result : Satisfactory
+
+==================================================
+              PREPTRACK REPORT
+==================================================
+
+STUDENT PROFILE
+
+Student Name             : yaswanth
+Registration Number      : 102
+Graduation Year          : 2026
+Attendance               : 85.0%
+Project Completed        : Yes
+Profile Verified         : Yes
+
+PRACTICE SUMMARY
+
+Total Practice Days      : 7
+Attempted Days           : 7
+Absent Days              : 0
+Passed Days              : 6
+Failed Days              : 1
+
+Strong Days              : 3
+Satisfactory Days        : 3
+Needs Improvement Days   : 0
+Critical Days            : 1
+
+PERFORMANCE ANALYSIS
+
+Total Score              : 476
+Average Score            : 68.00
+Highest Score            : 80
+Highest Score Day        : Day 3
+Lowest Score             : 35
+Lowest Score Day         : Day 2
+
+CRITICAL SCORE INFORMATION
+
+Critical Score Found     : Yes
+First Critical Day       : Day 2
+First Critical Score     : 35
+
+FINAL DECISION
+
+Final Status             : Critical Support Required
+Primary Blocker          : Critical score found on Day 2
+Next Action              : Revise the concepts from the first critical day
+==================================================
+
+
+Test Case:3
+
+
+==================================================
+              PREPTRACK APPLICATION
+==================================================
+Enter student name: yaswanth
+Enter registration number: 102
+Enter graduation year: 2026
+Enter attendance percentage: 85
+Has the student completed the required project? (yes/no): yes
+Is the student profile verified? (yes/no): yes
+Enter Day 1 score (0-100) or -1 for absent: 80
+Day 1 Result : Strong
+Enter Day 2 score (0-100) or -1 for absent: -1 
+Day 2 Result : Absent
+Enter Day 3 score (0-100) or -1 for absent: 75 
+Day 3 Result : Strong
+Enter Day 4 score (0-100) or -1 for absent: -1 
+Day 4 Result : Absent
+Enter Day 5 score (0-100) or -1 for absent: 90 
+Day 5 Result : Strong
+Enter Day 6 score (0-100) or -1 for absent: 70 
+Day 6 Result : Satisfactory
+Enter Day 7 score (0-100) or -1 for absent: -1 
+Day 7 Result : Absent
+
+==================================================
+              PREPTRACK REPORT
+==================================================
+
+STUDENT PROFILE
+
+Student Name             : yaswanth
+Registration Number      : 102
+Graduation Year          : 2026
+Attendance               : 85.0%
+Project Completed        : Yes
+Profile Verified         : Yes
+
+PRACTICE SUMMARY
+
+Total Practice Days      : 7
+Attempted Days           : 4
+Absent Days              : 3
+Passed Days              : 4
+Failed Days              : 0
+
+Strong Days              : 3
+Satisfactory Days        : 1
+Needs Improvement Days   : 0
+Critical Days            : 0
+
+PERFORMANCE ANALYSIS
+
+Total Score              : 315
+Average Score            : 78.75
+Highest Score            : 90
+Highest Score Day        : Day 5
+Lowest Score             : 70
+Lowest Score Day         : Day 6
+
+CRITICAL SCORE INFORMATION
+
+Critical Score Found     : No
+First Critical Day       : Not Applicable      
+First Critical Score     : Not Applicable      
+
+FINAL DECISION
+
+Final Status             : Practice Incomplete 
+Primary Blocker          : Fewer than six practices attempted
+Next Action              : Complete at least six practice days
+==================================================
+
+
+Test Case:4
+
+
+==================================================
+              PREPTRACK APPLICATION
+==================================================
+Enter student name: yaswanth
+Enter registration number: 102
+Enter graduation year: 2026
+Enter attendance percentage: 85
+Has the student completed the required project? (yes/no): yes
+Is the student profile verified? (yes/no): yes
+Enter Day 1 score (0-100) or -1 for absent: -1
+Day 1 Result : Absent
+Enter Day 2 score (0-100) or -1 for absent: -1 
+Day 2 Result : Absent
+Enter Day 3 score (0-100) or -1 for absent: -1 
+Day 3 Result : Absent
+Enter Day 4 score (0-100) or -1 for absent: -1 
+Day 4 Result : Absent
+Enter Day 5 score (0-100) or -1 for absent: -1 
+Day 5 Result : Absent
+Enter Day 6 score (0-100) or -1 for absent: -1 
+Day 6 Result : Absent
+Enter Day 7 score (0-100) or -1 for absent: -1 
+Day 7 Result : Absent
+
+==================================================
+              PREPTRACK REPORT
+==================================================
+
+STUDENT PROFILE
+
+Student Name             : yaswanth
+Registration Number      : 102
+Graduation Year          : 2026
+Attendance               : 85.0%
+Project Completed        : Yes
+Profile Verified         : Yes
+
+PRACTICE SUMMARY
+
+Total Practice Days      : 7
+Attempted Days           : 0
+Absent Days              : 7
+Passed Days              : 0
+Failed Days              : 0
+
+Strong Days              : 0
+Satisfactory Days        : 0
+Needs Improvement Days   : 0
+Critical Days            : 0
+
+PERFORMANCE ANALYSIS
+
+Total Score              : 0
+Average Score            : 0.00
+Highest Score            : Not Available       
+CRITICAL SCORE INFORMATION
+
+Critical Score Found     : No
+First Critical Day       : Not Applicable
+First Critical Score     : Not Applicable
+
+FINAL DECISION
+
+Final Status             : Practice Not Evaluated
+Primary Blocker          : No practice attempted
+Next Action              : Attempt the required coding practices
+==================================================
